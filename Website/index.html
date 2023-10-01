@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     
 
     <title>7099/21</title>
@@ -9,17 +9,42 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="prelorder/Pelorder.css" />
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="Search box/w3-CSS.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+    
+    <script>
+    
+ function runTypingEffect() {
+    const text = 'I am Shahil Sharma.';
+    const typingElement = document.getElementById('typingtext');
+    const typingDelay = 100;
+  
+    typeText(text, typingElement, typingDelay);
+  }
+  
+  function typeText(text, typingElement, delay) {
+    for (let i = 0; i < text.length; i++) {
+      setTimeout(() => {
+        typingElement.textContent += text.charAt(i);
+      }, delay * i);
+    }
+  }
+  
+  document.addEventListener('DOMContentLoaded', runTypingEffect);
+</script>
+
+
 
 </head>
+
+
 
 
     <body onload="myfunction()">
@@ -100,7 +125,7 @@
     <a href="#">
         <i class="fas fa-code fa-3x text-white"></i>
     </a>
-    <a href="#">
+    <a href="detail.html">
         <i class="fas fa-contact-book fa-3x text-white"></i>
     </a>
 </div>
@@ -130,22 +155,22 @@
 
 
      <!-- Include the clipboard.js library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script> -->
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script> -->
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script> -->
   
-  <script src="js/script.js"></script>
   <script>
     // Initialize Prism
-    Prism.highlightAll();
+    // Prism.highlightAll();
 
     // Initialize Clipboard.js
     new ClipboardJS('.copy-button');
-  </script>
+    </script>
     
-  <script src="prelorder/prelorder.js"></script>
-  <script src="Search box/w3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="prelorder/prelorder.js"></script>
+    <script src="Search box/w3.js"></script>
     
 </body>
 </html>

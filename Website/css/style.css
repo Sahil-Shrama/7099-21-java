@@ -43,7 +43,7 @@
   background-color: #0069d9;
 }
 
-.terminal-container {
+/* .terminal-container {
   background-color: #212121;
   color: #fff;
   padding: 10px;
@@ -51,7 +51,7 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   white-space: pre-wrap;
-}
+} */
 
 #activenow {
   background-color: #9cbfe5;

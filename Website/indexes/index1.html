@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../prelorder/Pelorder.css" />
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.css" />
+    <link rel="stylesheet" href="prism.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.css" /> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="../Search box/w3-CSS.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Lora:ital@1&family=Montserrat:ital,wght@1,300&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> 
      
 </head>
@@ -326,7 +327,7 @@
    <!-- body and slide bar -->
 <div class="py-2"></div>
    <div class="row py-5 align-items-stretch ">
-    <div class="d-none  noscrollnav  d-md-flex col-md-3 text-black " style="overflow: auto;">
+    <div class="d-none  noscrollnav  d-md-flex position-sticky col-md-3 text-black " style="overflow: auto;">
      <div class="text-center text-capitalize w-100">
       <h3 class="bg-primary text-white p-2" id="topjava"  >Java</h3>
       <h3 class="bg-primary text-white p-2 position-fixed rounded-circle" ><a href="#topjava"><i class=" fas fa-long-arrow-alt-up">
@@ -419,8 +420,8 @@ The code simply prints the message "hello world" when the program is executed.
         <div class="row justify-content-center">
         
             <div class="col-md-12">
-              <div class="terminal-container code-class">
-                <pre  class="language-java line-numbers">
+              <div class="terminal-container">
+                <pre  class="language-java line-numbers" style="height: 65vh;" >
                   <code class="language-java line-numbers">
                     
                     /**
@@ -596,18 +597,18 @@ The code simply prints the message "hello world" when the program is executed.
 
   <!-- Include the clipboard.js library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="prism.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script> -->
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script> -->
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.js"></script> -->
 
 
 
   <script src="../js/script.js"></script>
   <script>
     // Initialize Prism
-    Prism.highlightAll();
+    // Prism.highlightAll();
 
     // Initialize Clipboard.js
     new ClipboardJS('.copy-button');
