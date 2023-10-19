@@ -31,3 +31,9 @@ public class Java5 {
 
 
 }
+
+ The code is a Java program that asks the user to input five numbers.
+The program then calculates and prints the average of those five numbers.
+The code starts by declaring variables for an input stream, which is used to read in data from the keyboard, and a variable for storing the output stream, which will print out what it has calculated.
+It also declares two methods: one called "average" that takes no parameters and returns nothing; and another called "main" that takes no parameters but calls average() when it is run.
+The code is an example of how to use a Scanner object.

@@ -9,6 +9,7 @@
   background-attachment: fixed;
 }
 
+
 .header::after {
   content: "";
   position: absolute;
@@ -95,6 +96,6 @@
     font-size: 30px;
   }
   .header .role {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 }
