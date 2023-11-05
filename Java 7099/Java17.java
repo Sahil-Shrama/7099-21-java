@@ -16,6 +16,6 @@ public class Java17 {
 }
 
 
-The code in the Java17 class is a loop that prints out numbers from 0 to 20.
-The for loop in this code iterates through each number and prints it on the screen.
-The code attempts to print the odd numbe
+// The code in the Java17 class is a loop that prints out numbers from 0 to 20.
+// The for loop in this code iterates through each number and prints it on the screen.
+// The code attempts to print the odd numbe

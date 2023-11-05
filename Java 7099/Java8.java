@@ -30,9 +30,9 @@ public class Java8 {
 }
 
 
-The code starts by declaring a Scanner object.
-The next line asks the user to enter a binary number, which is then converted into an int using the binaryToDecimal() method.
-The code starts by declaring a Scanner object.
-The next line asks the user to enter a binary number, which is then converted into an int using the binaryToDecimal() method.
-The code is written in Java 8.
-It uses the Scanner class to parse a string and convert it into an integer.
+// The code starts by declaring a Scanner object.
+// The next line asks the user to enter a binary number, which is then converted into an int using the binaryToDecimal() method.
+// The code starts by declaring a Scanner object.
+// The next line asks the user to enter a binary number, which is then converted into an int using the binaryToDecimal() method.
+// The code is written in Java 8.
+// It uses the Scanner class to parse a string and convert it into an integer.

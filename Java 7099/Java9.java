@@ -9,4 +9,4 @@ public class Java9 {
 }
 
 
-The code prints out the Java version of the current system.
+// The code prints out the Java version of the current system.

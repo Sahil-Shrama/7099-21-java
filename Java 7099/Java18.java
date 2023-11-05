@@ -16,6 +16,6 @@ public class Java18 {
 
 
 
-The code asks the user to enter a string.
-The code then parses that string into an integer using the nextLine() method on Scanner.
-The code is meant to read in a string from the user and then parse out an integer.
+// The code asks the user to enter a string.
+// The code then parses that string into an integer using the nextLine() method on Scanner.
+// The code is meant to read in a string from the user and then parse out an integer.

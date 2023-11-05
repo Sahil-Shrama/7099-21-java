@@ -15,6 +15,6 @@ public class Java19 {
 }
 
 
-The code asks the user to enter seconds.
-The code then prints out "in minutes" and "in hours."
-The code will print out: in minutes 0 in hours 0
+// The code asks the user to enter seconds.
+// The code then prints out "in minutes" and "in hours."
+// The code will print out: in minutes 0 in hours 0

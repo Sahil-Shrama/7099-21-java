@@ -1,12 +1,12 @@
 
 
-The code is a Java program that asks the user to enter two integers.
-The code then compares the two numbers and prints out if they are equal, greater than, or less than each other.
-The code is meant to be used as a Java program that will compare two integers and print out the result of the comparison.
-The code starts by instantiating a Scanner object, which allows for inputting text into a computer program.
-The next line in the code asks for the user to enter their desired value of "a".
-Next, it prints out "enter the value of b" and then receives that value from the user via input.
-Finally, it compares "a" with "b", and prints out either "a is equal to b" or "a is greater than b."
+// The code is a Java program that asks the user to enter two integers.
+// The code then compares the two numbers and prints out if they are equal, greater than, or less than each other.
+// The code is meant to be used as a Java program that will compare two integers and print out the result of the comparison.
+// The code starts by instantiating a Scanner object, which allows for inputting text into a computer program.
+// The next line in the code asks for the user to enter their desired value of "a".
+// Next, it prints out "enter the value of b" and then receives that value from the user via input.
+// Finally, it compares "a" with "b", and prints out either "a is equal to b" or "a is greater than b."
 
 
 /**
